@@ -9,9 +9,4 @@ function changeColor() {
     var line = document.querySelector('.line');
     line.style.backgroundColor = '#FDFFAB';
 
-
-
-    
-
- 
 }
