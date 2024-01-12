@@ -2,6 +2,7 @@ const button = document.querySelector('.button');
 const container = document.querySelector('.container');
 const upper = document.querySelector('.upper-section');
 const line = document.querySelector('.line');
+const line = document.querySelector('.hi');
 
 let isButtonClicked = false;
 
