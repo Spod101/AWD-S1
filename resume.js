@@ -12,12 +12,14 @@ button.addEventListener('click', () => {
         upper.style.backgroundColor = '';
         upper.style.color = '';
         line.style.backgroundColor = '';
+        button.style.backgroundColor = '';
         isButtonClicked = false;
     } else {
         container.style.backgroundColor = '#FDFFAB';
         upper.style.backgroundColor = '#4F6F52';
         upper.style.color = '#D2E3C8';
         line.style.backgroundColor = '#FDFFAB';
+        button.style.backgroundColor = '#FDFFAB';
         isButtonClicked = true;
     }
 });
