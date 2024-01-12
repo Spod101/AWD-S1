@@ -1,0 +1,162 @@
+
+        body {
+            font-family:  'Lucida Sans Regular';
+            background-color: whitesmoke;
+           
+        }
+        .container
+        {
+            justify-content: center;
+            align-items: center; /* Added this line */
+            margin-right: 500px;
+            
+            background-color: white;
+            width: 8in;
+            height: 9in;
+            border: 1px solid black;
+        }
+        .upper-section 
+        {
+            background-color: darkblue;
+            padding: 20px;
+            font-family: 'Calibri';
+            color: white;
+        }
+        .pic 
+        {
+            float:left;
+            margin-top: 60px;
+        }
+        h1.name
+        {
+            margin-left: 50px;
+            padding-top: 30px;
+            padding-left: 200px;
+            padding-bottom: 40px;
+        }
+        h5.IT
+        {
+            margin-left: 50px;
+            margin-bottom: 0px;
+            margin-block-start: -90px;;
+            padding-top: 30px;
+            padding-left: 200px;
+            padding-bottom: 40px;
+        }
+        .line
+        {
+            background-color: yellow;
+            height:4px;
+        }
+        .scontainer
+        {
+            display: flex;
+        }
+        .loc
+        {
+            margin-left: 50px;
+            padding-top:5px;
+            float: left;
+            margin-right: 10px;  
+        }
+        .add
+        {
+          font-size: 12px;
+        }
+        .con 
+        {
+            padding-top: 5px;
+            margin-left: 70px;
+        }
+        .num
+        {
+            margin-left:  15px;
+            font-size: 12px;
+        }
+        .tcontainer
+        {
+            display: flex;
+        }
+        .gmail
+        {
+            margin-left: 50px;
+            padding-bottom: 0px;
+        }
+        .gm 
+        {
+            margin-left: 10px;
+            font-size: 12px;
+        }
+        .fb
+        {
+            margin-left: 90px;
+            padding-bottom:25px;
+        }
+        .f 
+        {
+            margin-left: 9px;
+            font-size: 12px;
+        }
+        h2.pro
+        {
+            margin-left: 20px;
+            margin-top: -0px;
+            color: black;
+        }
+        h2.car 
+        {
+            margin-left: 270px;
+            margin-top: -530px;
+            color: black;
+        }
+        .int
+        {
+            margin-left: 20px;
+            font-size: 12px;
+            line-height: 20px;
+        }
+        .edu
+        {
+            margin-left: 250px;
+            font-size: 12px;
+        }
+        .g, .j, .h, .e, .m, .hh, .p
+        {
+            margin-left: 95px;
+            margin-top: 5px;
+        }
+        .hob
+        {
+            margin-left: 20px;
+            margin-top: 100px;
+            color: black
+        }
+        dl
+        {
+            font-size: 12px;
+            margin-left: 20px;
+        }
+        .org
+        {
+            margin-left: 270px;
+            margin-top: 30px;
+            color: black;
+        }
+        .club
+        {
+            margin-left:247px;
+            font-size: 12px;
+            line-height: 2;
+        }
+       
+        button
+        {
+            padding: 20px;
+            margin: 20px; 
+            border-radius: 20px;
+            font-size: medium;
+         
+        
+            
+
+        }
