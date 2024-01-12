@@ -1,12 +1,22 @@
-function changeColor() {
-    var container = document.querySelector('.container');
-    container.style.backgroundColor = '#FDFFAB';
+const button = document.querySelector('.button');
+const container = document.querySelector('.container');
+const upper = document.querySelector('.upper-section');
+const line = document.querySelector('.line');
 
-    var upper = document.querySelector('.upper-section');
-    upper.style.backgroundColor = '#4F6F52';
-    upper.style.color = '#D2E3C8';
+let isButtonClicked = false;
 
-    var line = document.querySelector('.line');
-    line.style.backgroundColor = '#FDFFAB';
-
-}
+button.addEventListener('click', () => {
+    if (isButtonClicked) {
+        container.style.backgroundColor = 'white';
+        upper.style.backgroundColor = '';
+        upper.style.color = '';
+        line.style.backgroundColor = '';
+        isButtonClicked = false;
+    } else {
+        container.style.backgroundColor = '#FDFFAB';
+        upper.style.backgroundColor = '#4F6F52';
+        upper.style.color = '#D2E3C8';
+        line.style.backgroundColor = '#FDFFAB';
+        isButtonClicked = true;
+    }
+});
