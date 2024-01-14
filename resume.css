@@ -1,166 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
-        body {
-            font-family:  'Lucida Sans Regular';
-            background-color: whitesmoke;
-           
-        }
-        .container
-        {
-            justify-content: center;
-            align-items: center; 
-            margin: 0 auto; 
-            margin-right: 500px;
-            
-            background-color: white;
-            width: 8in;
-            height: 9in;
-            border: 1px solid black;
-        }
-        .upper-section 
-        {
-            background-color: darkblue;
-            padding: 20px;
-            font-family: 'Calibri';
-            color: white;
-        }
-        .pic 
-        {
-            float:left;
-            margin-top: 60px;
-            border-radius: 50%; 
-            border: 10px solid white;
-        }
-        h1.name
-        {
-            margin-left: 50px;
-            padding-top: 30px;
-            padding-left: 200px;
-            padding-bottom: 40px;
-        }
-        h5.IT
-        {
-            margin-left: 50px;
-            margin-bottom: 0px;
-            margin-block-start: -90px;;
-            padding-top: 30px;
-            padding-left: 200px;
-            padding-bottom: 40px;
-        }
-        .line
-        {
-            background-color: yellow;
-            height:4px;
-        }
-        .scontainer
-        {
-            display: flex;
-        }
-        .loc
-        {
-            margin-left: 50px;
-            padding-top:5px;
-            float: left;
-            margin-right: 10px;  
-        }
-        .add
-        {
-          font-size: 12px;
-        }
-        .con 
-        {
-            padding-top: 5px;
-            margin-left: 70px;
-        }
-        .num
-        {
-            margin-left:  15px;
-            font-size: 12px;
-        }
-        .tcontainer
-        {
-            display: flex;
-        }
-        .gmail
-        {
-            margin-left: 50px;
-            padding-bottom: 0px;
-        }
-        .gm 
-        {
-            margin-left: 10px;
-            font-size: 12px;
-        }
-        .fb
-        {
-            margin-left: 90px;
-            padding-bottom:25px;
-        }
-        .f 
-        {
-            margin-left: 9px;
-            font-size: 12px;
-        }
-        h2.pro
-        {
-            margin-left: 20px;
-            margin-top: -0px;
-            color: black;
-        }
-        h2.car 
-        {
-            margin-left: 270px;
-            margin-top: -530px;
-            color: black;
-        }
-        .int
-        {
-            margin-left: 20px;
-            font-size: 12px;
-            line-height: 20px;
-        }
-        .edu
-        {
-            margin-left: 250px;
-            font-size: 12px;
-        }
-        .g, .j, .h, .e, .m, .hh, .p
-        {
-            margin-left: 95px;
-            margin-top: 5px;
-        }
-        .hob
-        {
-            margin-left: 20px;
-            margin-top: 100px;
-            color: black
-        }
-        dl
-        {
-            font-size: 12px;
-            margin-left: 20px;
-        }
-        .org
-        {
-            margin-left: 270px;
-            margin-top: 30px;
-            color: black;
-        }
-        .club
-        {
-            margin-left:247px;
-            font-size: 12px;
-            line-height: 2;
-        }
-       
-        button
-        {
-            padding: 20px;
-            margin: 60px; 
-            border-radius: 20px;
-            font-size: medium;
-            margin-top: 20px;
-            position: absolute;
-            top: 0;
-            left: 0;
-            font-family: 'Lucida Sans Regular';
-        }
+.container {
+    display: flex;
+}
+
+.btn {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+
+.button {
+    background: white;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 12% 14%;
+    text-align: center;
+    box-shadow: 10px 10px rgba(0, 0, 0, 1);
+    
+    &:hover,
+    &:active {
+        background-color: initial;
+        background-position: 0 0;
+        color: white;
+        box-shadow: 0 0 rgba(0, 0, 0, 1);
+    }
+    
+    &:active {
+        opacity: .5;
+    }
+}
+
+hr {
+    border: 5px solid #000000b8;
+    border-radius: 5px;
+}
+
+.resume {
+    margin: 5%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    width: 50%;
+
+    p {
+        text-align: justify;
+    }
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4%;
+}
+
+.text {
+    width: 80%;
+    padding-top: 12%;
+}
+
+.image {
+    width: 40%;
+    text-align: right;
+}
+
+.images {
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-top: 60px;
+    border-radius: 50%; 
+    border: 10px solid white;
+}
+
+.bottom {
+    margin-top: 50px;
+}
+
+.bottom li {
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+h1 {
+    font-size: 250%;
+}
+
+h4 {
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
+
+
